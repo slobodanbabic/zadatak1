@@ -1,0 +1,10 @@
+/build/
+# Compiled binaries
+/bin/
+*.class
+/target/
+#Eclipse metadata
+.metadata/
+.recommenders/
+#Compiledbinaries
+*.class

@@ -43,7 +43,7 @@ public class UserController {
 			
 			List<UsersHasImage> uhi = user.getUsersHasImages();
 			
-			// sortiranje3 listu objekata po img_ordinal
+			// sortiranje4 listu objekata po img_ordinal
 			uhi.sort((o1, o2) -> o1.getImgOrdinal().compareTo(o2.getImgOrdinal()));
 
 			request.getSession().setAttribute("list", uhi);
